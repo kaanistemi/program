@@ -1,0 +1,102 @@
+body {
+    background-color: #000000;
+}
+
+
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    float: none;
+
+}
+
+.border {
+      border-bottom: 3px dashed #66FCF1 ;
+      margin-top:50px;
+      
+
+}
+
+.col-md-5 {
+    font-size: 30px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+
+.event-baslik {
+    color: #fff;
+}
+
+.rounded-circle {
+    margin-top: 10px;
+    border: #fff solid 3px;
+}
+
+.event-baslik {
+    font-size: 40px;
+    line-height: 60px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.gunler {
+    font-size: 25px;
+    color: #fff;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.day-blue {
+    color: #66FCF1;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar-light-2 a:hover {
+ 
+  color: #66FCF1;
+  background-color: #000;
+}
+
+.navbar-light-2 li a:hover {
+  background-color: #000000;
+  font-size: 200%;
+ 
+}
+
+.active{ 
+    background:#000000 !important ; 
+    color: #66FCF1 !important;
+    
+}
+
+@media screen and (min-width: 930px) {
+  .col-md-5
+  {
+   ;
+  }
+}
+
+
+@media screen and (max-width: 931px) {
+  .col-md-5 {
+    text-align: center;
+    line-height: 13px;
+  }
+}
+
+.gunler {
+  color: #fff;
+  margin: 0 0 3px 0;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+}
